@@ -11,7 +11,7 @@
 ## 연락처
 - Email: 2012hy5@naver.com
 - GitHub: https://github.com/cxo-ca
-- (선택) 포트폴리오: https://sites.google.com/view/[이름]
+- (선택) 포트폴리오: https://sites.google.com/view/cxo-ca
 
 ---
 
