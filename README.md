@@ -13,6 +13,9 @@
 - GitHub: https://github.com/cxo-ca
 - 포트폴리오: https://sites.google.com/view/cxo-ca
 
+### Portfolio / Demo
+- EDA 대시보드(배포): https://project-eda-dashboard-mdymcubfvmcmtygcqisq98.streamlit.app/
+
 ---
 
 ### English (short)
