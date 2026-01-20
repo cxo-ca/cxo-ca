@@ -1,6 +1,6 @@
 # 안녕하세요, 데이터 분석 인턴을 준비 중인 정호영입니다 👋
 
-## 'Data / Analytics Intern' | 'Python · SQL' 기반 '재현 가능한 분석'과 'ETL-to-Dashboard' 결과물을 지향합니다
+## 'Data / Analytics Intern' |   'Python · SQL' 기반 '재현 가능한 분석'과 'ETL-to-Dashboard' 결과물을 지향합니다
 
 - 'What': 데이터에서 인사이트를 뽑고, 지표를 '대시보드'로 전달 가능한 형태로 구현합니다.
 - 'How': Python(pandas/numpy/scikit-learn) · SQL(CTE/윈도우 함수) · 시각화(matplotlib/Plotly) + Git/GitHub 협업을 기반으로 합니다.
