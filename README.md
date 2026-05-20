@@ -1,51 +1,99 @@
-# 안녕하세요, 데이터 분석 인턴을 준비 중인 정호영입니다👋
+# 정호영 | Data Analyst Intern Candidate
 
-## Data / Analytics Intern | Python · SQL 기반 **재현 가능한 분석**과 **ETL-to-Dashboard 전달**을 지향합니다
+> Python과 SQL로 데이터를 정리하고, 분석 결과를 대시보드까지 연결하는 데이터 분석 인턴 지원자입니다.
 
-- What: 데이터에서 인사이트를 도출하고, 지표를 **대시보드 형태로 전달 가능한 결과물**로 구현합니다.
-- How: Python(pandas/numpy/scikit-learn) · SQL(CTE/윈도우 함수) · 시각화(matplotlib/Plotly) + Git/GitHub 협업 기반으로 작업합니다.
-- Result: **ETL → SQLite(app.db) 누적 적재 → Streamlit 대시보드에서 AM/PM 평균속도 KPI 확인**까지 end-to-end 흐름을 구현했습니다.
+---
+
+## About Me
+
+저는 데이터에서 문제를 정의하고, 지표를 설계한 뒤, 분석 결과를 재현 가능한 형태로 정리하는 데 관심이 있습니다.
+
+현재는 Python, SQL, Streamlit, SQLite를 활용해 `ETL → DB 적재 → EDA → Dashboard` 흐름을 직접 구현하며 데이터 분석 포트폴리오를 만들고 있습니다.
+
+---
+
+## What I Focus On
+
+| 영역 | 설명 |
+|---|---|
+| EDA | 데이터 구조 파악, 결측치 확인, 기초 통계, 지표 정의 |
+| SQL | 조회, 필터링, 집계, JOIN, 서브쿼리 기반 분석 |
+| ETL | 데이터 수집, 정제, 표준 스키마 변환, SQLite 적재 |
+| Dashboard | Streamlit 기반 KPI 카드와 차트 구현 |
+| Communication | 분석 목적, 과정, 결과를 README와 문서로 정리 |
 
 ---
 
 ## Featured Projects
 
-### 1) 공개데이터 EDA + 대시보드 (Streamlit)
-- What: CSV/XLSX 업로드 EDA + DB 기반 KPI(AM 07–09 / PM 17–19 평균속도) 대시보드
-- Output: 출퇴근 피크 시각화 + 핵심 지표 카드/차트
-- Repo: https://github.com/cxo-ca/project-eda-dashboard
-- Demo: https://project-eda-dashboard-mdymcubfvmcmtygcqisq98.streamlit.app/
+### 1. 서울 출퇴근 EDA 대시보드
 
-### 2) 미니 ETL + SQL (SQLite)
-- What: 일 1회 수집/정제/적재 자동화 → 분석용 테이블(logs_road) 누적
-- Output: (date, hour) 기준 업서트 + 대시보드가 읽는 DB 경로 통일(APP_DB_PATH)
-- Repo: https://github.com/cxo-ca/project-etl-sql
+서울 출퇴근 시간대 교통 데이터를 분석하고, AM/PM 평균속도 KPI를 Streamlit 대시보드로 시각화한 프로젝트입니다.
 
----
+- **Repo**: https://github.com/cxo-ca/project-eda-dashboard
+- **Demo**: https://project-eda-dashboard-mdymcubfvmcmtygcqisq98.streamlit.app/
+- **Tech**: Python, Pandas, Streamlit, SQLite
+- **Output**: CSV/XLSX 업로드 EDA, AM/PM 평균속도 KPI, 최근 n일 교통 지표 시각화
 
-## What I can do
-- EDA: 데이터 프로파일링, 결측/이상치 점검, 지표 정의 및 해석
-- SQL analytics: 조인/집계, CTE, 윈도우 함수 기반 분석 쿼리 작성
-- Dashboards: 지표 설계 → 시각화 → 공유(배포)까지 전달
-- Collaboration: Git/GitHub, 이슈 기반 작업, 코드리뷰, 간단 ETL 자동화
+### 2. 서울 출퇴근 도로속도 ETL
+
+출퇴근 도로속도 데이터를 정제해 SQLite에 적재하고, EDA 대시보드와 연결하는 Python ETL 파이프라인입니다.
+
+- **Repo**: https://github.com/cxo-ca/project-etl-sql
+- **Tech**: Python, Pandas, SQLite, PowerShell
+- **Output**: 표준 스키마 변환, `logs_road` 테이블 적재, `(date, hour)` 기준 중복 처리
+
+### 3. MySQL Practice
+
+MySQL 기본 문법을 학습하며 CRUD, 필터링, 집계, JOIN, 서브쿼리, 데이터 모델링 개념을 정리한 SQL 학습 저장소입니다.
+
+- **Repo**: https://github.com/cxo-ca/mysql-practice
+- **Tech**: MySQL, SQL
+- **Output**: 챕터별 SQL 문법 정리, Self Check 문제, 실습 스크립트
 
 ---
 
 ## Skills
-- Python: pandas, numpy, scikit-learn
-- SQL: CTE, window functions
-- Visualization: matplotlib, Plotly
-- Tools: Git/GitHub
+
+| Category | Skills |
+|---|---|
+| Language | Python, SQL |
+| Data Analysis | Pandas, NumPy, EDA, KPI Definition |
+| Database | SQLite, MySQL |
+| Dashboard | Streamlit |
+| Tools | Git, GitHub, VS Code |
+| Learning | scikit-learn, A/B Testing, Data Modeling |
 
 ---
 
-## Contact & Links
+## Portfolio Direction
+
+현재 포트폴리오는 다음 흐름을 중심으로 개선하고 있습니다.
+
+```text
+Raw Data
+  → ETL
+  → SQLite
+  → EDA
+  → KPI
+  → Streamlit Dashboard
+  → README Documentation
+```
+
+단순히 코드를 작성하는 것보다, **분석 목적과 결과물이 명확한 데이터 프로젝트**를 만드는 것을 목표로 합니다.
+
+---
+
+## Contact
+
 - Email: 2012hy5@naver.com
 - Portfolio: https://sites.google.com/view/cxo-ca
+- LinkedIn: https://www.linkedin.com/in/호영-정-26356b388
 
 ---
 
-### English (short)
-Aspiring Data Analyst Intern (Python/SQL). Interested in EDA, dashboards, and A/B testing.  
-- Projects: EDA Dashboard | Mini ETL + SQL  
-- Contact: 2012hy5@naver.com
+## English Summary
+
+Aspiring Data Analyst Intern focused on Python, SQL, EDA, ETL, and dashboard development.
+
+I build small but complete data projects that connect data collection, preprocessing, SQLite storage, exploratory analysis, KPI design, and Streamlit dashboard delivery.
