@@ -1,99 +1,233 @@
-# 정호영 | Data Analyst Intern Candidate
+# 정호영 | Data & AI
 
-> Python과 SQL로 데이터를 정리하고, 분석 결과를 대시보드까지 연결하는 데이터 분석 인턴 지원자입니다.
+> 데이터를 분석하는 것에서 끝나지 않고,
+> **AI와 소프트웨어를 활용해 실제 사용자가 쓸 수 있는 서비스로 구현하는 과정**에 관심이 있습니다.
 
----
-
-## About Me
-
-저는 데이터에서 문제를 정의하고, 지표를 설계한 뒤, 분석 결과를 재현 가능한 형태로 정리하는 데 관심이 있습니다.
-
-현재는 Python, SQL, Streamlit, SQLite를 활용해 `ETL → DB 적재 → EDA → Dashboard` 흐름을 직접 구현하며 데이터 분석 포트폴리오를 만들고 있습니다.
-
----
-
-## What I Focus On
-
-| 영역 | 설명 |
-|---|---|
-| EDA | 데이터 구조 파악, 결측치 확인, 기초 통계, 지표 정의 |
-| SQL | 조회, 필터링, 집계, JOIN, 서브쿼리 기반 분석 |
-| ETL | 데이터 수집, 정제, 표준 스키마 변환, SQLite 적재 |
-| Dashboard | Streamlit 기반 KPI 카드와 차트 구현 |
-| Communication | 분석 목적, 과정, 결과를 README와 문서로 정리 |
-
----
-
-## Featured Projects
-
-### 1. 서울 출퇴근 EDA 대시보드
-
-서울 출퇴근 시간대 교통 데이터를 분석하고, AM/PM 평균속도 KPI를 Streamlit 대시보드로 시각화한 프로젝트입니다.
-
-- **Repo**: https://github.com/cxo-ca/project-eda-dashboard
-- **Demo**: https://project-eda-dashboard-mdymcubfvmcmtygcqisq98.streamlit.app/
-- **Tech**: Python, Pandas, Streamlit, SQLite
-- **Output**: CSV/XLSX 업로드 EDA, AM/PM 평균속도 KPI, 최근 n일 교통 지표 시각화
-
-### 2. 서울 출퇴근 도로속도 ETL
-
-출퇴근 도로속도 데이터를 정제해 SQLite에 적재하고, EDA 대시보드와 연결하는 Python ETL 파이프라인입니다.
-
-- **Repo**: https://github.com/cxo-ca/project-etl-sql
-- **Tech**: Python, Pandas, SQLite, PowerShell
-- **Output**: 표준 스키마 변환, `logs_road` 테이블 적재, `(date, hour)` 기준 중복 처리
-
-### 3. MySQL Practice
-
-MySQL 기본 문법을 학습하며 CRUD, 필터링, 집계, JOIN, 서브쿼리, 데이터 모델링 개념을 정리한 SQL 학습 저장소입니다.
-
-- **Repo**: https://github.com/cxo-ca/mysql-practice
-- **Tech**: MySQL, SQL
-- **Output**: 챕터별 SQL 문법 정리, Self Check 문제, 실습 스크립트
-
----
-
-## Skills
-
-| Category | Skills |
-|---|---|
-| Language | Python, SQL |
-| Data Analysis | Pandas, NumPy, EDA, KPI Definition |
-| Database | SQLite, MySQL |
-| Dashboard | Streamlit |
-| Tools | Git, GitHub, VS Code |
-| Learning | scikit-learn, A/B Testing, Data Modeling |
-
----
-
-## Portfolio Direction
-
-현재 포트폴리오는 다음 흐름을 중심으로 개선하고 있습니다.
-
-```text
-Raw Data
-  → ETL
-  → SQLite
-  → EDA
-  → KPI
-  → Streamlit Dashboard
-  → README Documentation
-```
-
-단순히 코드를 작성하는 것보다, **분석 목적과 결과물이 명확한 데이터 프로젝트**를 만드는 것을 목표로 합니다.
-
----
-
-## Contact
-
-- Email: 2012hy5@naver.com
-- Portfolio: https://sites.google.com/view/cxo-ca
-- LinkedIn: https://www.linkedin.com/in/호영-정-26356b388
+Python과 SQL을 기반으로 데이터 분석을 공부했으며,
+최근에는 AI 모델과 데이터, 프론트엔드·백엔드를 연결하는 프로젝트를 진행하고 있습니다.
 
 ---
 
 ## English Summary
 
-Aspiring Data Analyst Intern focused on Python, SQL, EDA, ETL, and dashboard development.
+Data & AI enthusiast focused on turning **data and machine learning into practical products**.
 
-I build small but complete data projects that connect data collection, preprocessing, SQLite storage, exploratory analysis, KPI design, and Streamlit dashboard delivery.
+Experienced with **Python, SQL, FastAPI, React, and React Native**, with projects covering data analytics, computer vision, LLM applications, and accessibility-focused AI services.
+
+Currently exploring **end-to-end AI product development**, from problem definition and data processing to model integration and user-facing applications.
+
+---
+
+## About Me
+
+* Data Analysis → AI → Application으로 이어지는 **End-to-End 프로젝트**에 관심이 있습니다.
+* Python과 SQL을 활용한 데이터 처리 및 분석 경험이 있습니다.
+* FastAPI, React / React Native를 활용해 AI 기능을 실제 서비스 형태로 구현하고 있습니다.
+* 단순한 모델 성능보다 **사용자가 어떤 문제를 겪고 있으며 기술이 이를 어떻게 해결할 수 있는지**를 중요하게 생각합니다.
+
+---
+
+## Current Focus
+
+```text
+Problem Definition
+        ↓
+Data Collection / Analysis
+        ↓
+AI / ML
+        ↓
+API & Backend
+        ↓
+Application
+        ↓
+User Validation
+```
+
+현재는 데이터 분석 역량을 기반으로
+**AI 기반 서비스의 기획 → 데이터 → 모델 → 제품 구현 과정 전체를 경험하는 것**에 집중하고 있습니다.
+
+---
+
+# Featured Projects
+
+## 1. Ear Dream
+
+**한손 수어 기반 실시간 의사소통 보조 서비스**
+
+> 두 손을 모두 사용하기 어려운 상황에서도
+> 농인과 청인이 보다 즉각적으로 소통할 수 있도록 돕는 AI 서비스
+
+🔗 https://github.com/Ear-Dream/Ear-Dream-Core
+
+### Problem
+
+기존 수어 인식 시스템은 주로 양손 수어를 전제로 하기 때문에
+이동 중 스마트폰을 들고 있는 상황처럼 한 손만 사용할 수 있을 때 활용하기 어렵습니다.
+
+### Solution
+
+```text
+한손 수어 입력
+      ↓
+손·얼굴 Landmark 추출
+      ↓
+수어 인식
+      ↓
+후보 단어 추천
+      ↓
+문장 구성
+      ↓
+텍스트 / 음성 전달
+```
+
+### What I Work On
+
+* React Native / Expo 기반 애플리케이션 개발
+* MediaPipe 기반 손·얼굴 Landmark 추출
+* 수어 인식 결과 후보 단어 UI
+* 후보 선택 기반 문장 조합 UX
+* FastAPI API와 프론트엔드 연결 구조 이해 및 구현
+
+### Tech
+
+`React Native` `Expo` `TypeScript` `FastAPI` `Python` `MediaPipe` `OpenAPI`
+
+**SKT FLY AI 9기 Team Project**
+
+---
+
+## 2. 편해질지도 | Barrier-Free Travel
+
+**이동약자가 직접 설계하는 장벽 없는 여행**
+
+🔗 https://github.com/gkfla2020-bit/barrier-free-travel
+
+### Problem
+
+일반적인 지도 서비스는 최단 경로를 제공하지만,
+
+* 계단
+* 경사로
+* 엘리베이터
+* 장애인 화장실
+* 저상버스
+
+등 이동약자에게 중요한 정보를 충분히 고려하지 못하는 경우가 있습니다.
+
+### Solution
+
+사용자의 이동 조건을 입력받아 접근 가능한 장소를 필터링하고,
+이동 난이도를 고려해 실제 이동 가능한 여행 코스를 만드는 서비스를 구현했습니다.
+
+### Key Features
+
+* 한국관광공사 무장애 관광 데이터 활용
+* 사용자 이동 조건 기반 장소 필터링
+* 계단 회피 보행 경로
+* 구간별 이동 난이도 계산
+* 저상버스 정보 연동
+* LLM 기반 여행 코스 추천
+* 접근성 정보를 보수적으로 판정하는 데이터 처리 로직
+
+### Tech
+
+`React` `Vite` `FastAPI` `Python` `Tmap API` `TourAPI` `Claude API`
+
+**TECH4GOOD Hackathon · Team 삼박자**
+
+---
+
+## 3. Seoul Traffic EDA Dashboard
+
+**서울 출퇴근 교통 데이터 분석 및 Streamlit Dashboard**
+
+🔗 https://github.com/cxo-ca/project-eda-dashboard
+
+출퇴근 시간대 교통 데이터를 분석하고
+AM/PM 평균속도 등의 KPI를 정의하여 대시보드로 시각화한 프로젝트입니다.
+
+### What I Did
+
+* 데이터 구조 및 결측치 분석
+* 출퇴근 시간대 지표 정의
+* Python / Pandas 기반 EDA
+* SQLite 데이터 조회
+* Streamlit Dashboard 구현
+
+### Tech
+
+`Python` `Pandas` `SQLite` `Streamlit`
+
+---
+
+## 4. Seoul Traffic ETL Pipeline
+
+**서울 도로속도 데이터 ETL Pipeline**
+
+🔗 https://github.com/cxo-ca/project-etl-sql
+
+```text
+Raw Data
+   ↓
+Cleaning
+   ↓
+Standard Schema
+   ↓
+SQLite
+   ↓
+EDA / Dashboard
+```
+
+데이터 수집과 분석을 분리하지 않고
+재사용 가능한 데이터 파이프라인 형태로 구현하는 것을 목표로 진행했습니다.
+
+### Tech
+
+`Python` `Pandas` `SQLite` `ETL`
+
+---
+
+# Tech Stack
+
+### Data / AI
+
+`Python` `SQL` `Pandas` `NumPy` `scikit-learn`
+`EDA` `Data Preprocessing` `Machine Learning`
+
+### Backend
+
+`FastAPI` `SQLite` `MySQL` `REST API` `OpenAPI`
+
+### Frontend / App
+
+`React` `React Native` `Expo` `TypeScript`
+`Streamlit`
+
+### AI / Computer Vision
+
+`MediaPipe` `Computer Vision` `LLM API`
+
+### Tools
+
+`Git` `GitHub` `VS Code` `pnpm`
+
+---
+
+# What I'm Learning
+
+현재 다음 영역을 중심으로 역량을 확장하고 있습니다.
+
+* Machine Learning / Data Science
+* AI 서비스 설계
+* Computer Vision
+* LLM Application
+* 데이터 기반 제품 개발
+* End-to-End AI Pipeline
+
+---
+
+# Contact
+
+* **Email**: [2012hy5@naver.com](mailto:2012hy5@naver.com)
+* **Portfolio**: https://sites.google.com/view/cxo-ca
+* **LinkedIn**: https://www.linkedin.com/in/호영-정-26356b388
