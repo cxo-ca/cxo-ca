@@ -1,225 +1,179 @@
-# 정호영 | Data & AI
+# 정호영 | Data Science & AI
 
-> 데이터를 분석하는 것에서 끝나지 않고,
-> **AI와 소프트웨어를 활용해 실제 사용자가 쓸 수 있는 서비스로 구현하는 과정**에 관심이 있습니다.
+> 데이터를 분석하는 데서 끝나지 않고, AI 모델과 소프트웨어를 연결해 실제 사용자가 사용할 수 있는 서비스로 구현하는 과정에 관심이 있습니다.
 
-Python과 SQL을 기반으로 데이터 분석을 공부했으며,
-최근에는 AI 모델과 데이터, 프론트엔드·백엔드를 연결하는 프로젝트를 진행하고 있습니다.
-
----
-
-## English Summary
-
-Data & AI enthusiast focused on turning **data and machine learning into practical products**.
-
-Experienced with **Python, SQL, FastAPI, React, and React Native**, with projects covering data analytics, computer vision, LLM applications, and accessibility-focused AI services.
-
-Currently exploring **end-to-end AI product development**, from problem definition and data processing to model integration and user-facing applications.
+Python과 SQL 기반의 데이터 분석을 시작으로
+Machine Learning, Computer Vision, FastAPI, React Native까지 경험하며
+**Data → AI → Application**으로 이어지는 End-to-End 프로젝트를 만들어가고 있습니다.
 
 ---
 
 ## About Me
 
-* Data Analysis → AI → Application으로 이어지는 **End-to-End 프로젝트**에 관심이 있습니다.
-* Python과 SQL을 활용한 데이터 처리 및 분석 경험이 있습니다.
-* FastAPI, React / React Native를 활용해 AI 기능을 실제 서비스 형태로 구현하고 있습니다.
-* 단순한 모델 성능보다 **사용자가 어떤 문제를 겪고 있으며 기술이 이를 어떻게 해결할 수 있는지**를 중요하게 생각합니다.
-* 프로젝트에서 문제 정의와 기능 구현뿐만 아니라 **서비스 기획, 우선순위 설정, 의사결정 과정**에도 적극적으로 참여합니다.
+* Python / SQL 기반 데이터 처리 및 분석
+* Machine Learning 및 Computer Vision 기반 AI 서비스 구현
+* FastAPI를 활용한 AI inference API 연동
+* React / React Native 기반 사용자 애플리케이션 구현
+* 문제 정의, UX 설계, 기능 우선순위 및 프로젝트 의사결정 참여
+* 알고리즘과 자료구조를 Python으로 지속적으로 학습
 
----
-
-## Current Focus
-
-```text
-Problem Definition
-        ↓
-Data Collection / Analysis
-        ↓
-AI / ML
-        ↓
-API & Backend
-        ↓
-Application
-        ↓
-User Validation
-```
-
-현재는 데이터 분석 역량을 기반으로
-**AI 기반 서비스의 기획 → 데이터 → 모델 → 제품 구현 과정 전체를 경험하는 것**에 집중하고 있습니다.
+현재 **Data Scientist / AI Engineer** 직무를 중심으로 역량을 확장하고 있습니다.
 
 ---
 
 # Featured Projects
 
-## 1. Ear Dream
+## 1. Ear-Dream | 손결
 
-**한손 수어 기반 실시간 의사소통 보조 서비스**
-
-🔗 https://github.com/Ear-Dream/Ear-Dream-Core
-
-### 프로젝트 개요
-
-두 손을 모두 사용하기 어려운 상황에서도
-농인과 청인이 보다 즉각적으로 의사소통할 수 있도록 돕는 AI 기반 서비스입니다.
-
-기존 수어 인식 시스템은 주로 양손 수어를 전제로 하기 때문에,
-이동 중 스마트폰을 들고 있는 상황처럼 한 손만 사용할 수 있을 때 활용하기 어렵다는 문제에서 출발했습니다.
-
-### 서비스 흐름
-
-```text
-한손 수어 입력
-      ↓
-손·얼굴 Landmark 추출
-      ↓
-수어 인식
-      ↓
-후보 단어 추천
-      ↓
-문장 구성
-      ↓
-텍스트 / 음성 전달
-```
-
-### 담당 및 경험
-
-* React Native / Expo 기반 애플리케이션 개발
-* MediaPipe 기반 손·얼굴 Landmark 추출 환경 구성
-* 수어 인식 결과 기반 후보 단어 UI 구현
-* 후보 선택 기반 문장 조합 UX 개발
-* FastAPI API와 프론트엔드 간 연결 구조 이해 및 구현
-* 실제 사용자 문제를 기반으로 서비스 기능과 사용자 흐름 구체화
-
-### Tech
-
-`React Native` `Expo` `TypeScript` `FastAPI` `Python` `MediaPipe` `OpenAPI`
+### 한손 수어 기반 AI 의사소통 보조 서비스
 
 **SKT FLY AI 9기 Team Project**
 
----
+스마트폰을 들고 있거나 이동 중인 상황처럼 두 손을 자유롭게 사용하기 어려울 때도
+농인과 청인이 의사소통할 수 있도록 만든 한손 수어 기반 AI 서비스입니다.
 
-## 2. 편해질지도 | Barrier-Free Travel
+### Service Flow
 
-**이동약자를 위한 무장애 여행 경로 추천 서비스**
+```text
+Sign Language
+    ↓
+MediaPipe Landmark Extraction
+    ↓
+Sign Recognition
+    ↓
+Top-K Word Candidates
+    ↓
+Sentence Composition
+    ↓
+Text / Speech
+```
 
-🔗 https://github.com/gkfla2020-bit/barrier-free-travel
+반대 방향에서는
 
-### 프로젝트 개요
+```text
+Speech / Text
+    ↓
+STT
+    ↓
+Sentence Decomposition
+    ↓
+Sign Sequence
+    ↓
+Sign-language Avatar
+```
 
-이동약자가 여행을 계획할 때 겪는 접근성 문제를 해결하기 위해 진행한 해커톤 프로젝트입니다.
+형태로 청인의 음성을 수어 표현으로 전달합니다.
 
-일반적인 지도 서비스가 최단거리와 이동시간 중심으로 경로를 제공하는 것과 달리,
-이동약자에게는 계단, 경사로, 엘리베이터, 장애인 화장실, 저상버스 등 접근성 정보가 실제 이동 가능 여부를 결정하는 중요한 요소라는 점에 주목했습니다.
+### My Contributions
 
-### 담당 역할 — Team Leader / PM
-
-* 팀장으로서 프로젝트의 **문제 정의, 방향 설정 및 주요 의사결정** 담당
-* 사용자 관점에서 핵심 문제를 정의하고 **서비스 컨셉과 핵심 기능 기획**
-* 팀원별 역할 및 작업 우선순위를 조율하며 프로젝트 진행 관리
-* 기능 후보를 검토하고 **MVP 범위와 구현 우선순위 결정**
-* 기획·디자인·개발 과정에서 발생하는 이슈를 조율하고 최종 의사결정 수행
-* 사용자 시나리오와 서비스 흐름을 구체화해 개발팀에 요구사항 전달
-* 제한된 해커톤 기간 안에서 구현 가능성과 사용자 가치를 기준으로 기능 범위 조정
-
-### 주요 서비스 아이디어
-
-* 이동 제약 조건을 고려한 장소 추천
-* 계단·경사 등 접근성을 반영한 이동 경로 제공
-* 엘리베이터, 장애인 화장실 등 무장애 편의시설 정보 제공
-* 저상버스 등 이동수단 접근성 정보 활용
-* 사용자 조건에 맞는 여행 일정 및 이동 경로 추천
-
-**TECH4GOOD Hackathon · Team 삼박자**
-
----
-
-## 3. Seoul Traffic EDA Dashboard
-
-**서울 출퇴근 교통 데이터 분석 및 Streamlit Dashboard**
-
-🔗 https://github.com/cxo-ca/project-eda-dashboard
-
-### 프로젝트 개요
-
-서울 도로 교통 데이터를 활용해 출퇴근 시간대의 교통 흐름을 분석하고,
-분석 결과를 사용자가 직관적으로 확인할 수 있도록 Streamlit 대시보드로 구현한 프로젝트입니다.
-
-### 주요 작업
-
-* 데이터 구조 및 결측치 분석
-* 데이터 정제 및 전처리
-* 출퇴근 시간대 기준 정의
-* AM / PM 평균 속도 등 주요 지표 설계
-* Python / Pandas 기반 탐색적 데이터 분석
-* SQLite 데이터 조회
-* Streamlit 기반 데이터 시각화 및 Dashboard 구현
+* React Native 기반 수어 입력 및 결과 화면 구현
+* 인식된 단어를 누적해 문장을 만드는 Sentence Composer 구현
+* Top-K 후보 기반 오인식 수정 UX 구현
+* 실제 microphone level과 연동되는 음성 입력 waveform 구현
+* Figma 최종 디자인을 애플리케이션 UI에 반영
+* 300개 수어 단어 픽토그램을 후보 카드 및 단어 UI에 적용
+* 모바일 화면 비율 및 카메라 입력 UX 개선
+* FastAPI / OpenAPI 기반 API 연동 구조 작업
+* 사용자 시나리오와 서비스 흐름 설계 및 기능 우선순위 논의
 
 ### Tech
 
-`Python` `Pandas` `SQLite` `Streamlit` `EDA` `Data Visualization`
+`Python` `FastAPI` `MediaPipe` `React Native` `Expo` `TypeScript` `OpenAPI`
 
 ---
 
-## 4. Seoul Traffic ETL Pipeline
+## 2. Seoul Traffic Data Pipeline & Dashboard
 
-**서울 도로속도 데이터 ETL Pipeline**
+### 서울 출퇴근 교통 데이터 분석
 
-🔗 https://github.com/cxo-ca/project-etl-sql
-
-### 프로젝트 개요
-
-원천 교통 데이터를 분석 가능한 형태로 정제하고 데이터베이스에 저장하는
-ETL 파이프라인을 구현한 프로젝트입니다.
-
-단순히 데이터를 분석하는 것에서 그치지 않고,
-원천 데이터가 분석과 시각화 단계까지 안정적으로 연결될 수 있도록 데이터 흐름을 구성하는 것을 목표로 했습니다.
-
-### Pipeline
+서울 도로속도 데이터를 이용해
 
 ```text
 Raw Data
    ↓
-Cleaning
+Cleaning / Preprocessing
    ↓
 Standard Schema
    ↓
 SQLite
    ↓
-EDA / Dashboard
+EDA
+   ↓
+KPI
+   ↓
+Streamlit Dashboard
 ```
 
-### 주요 작업
+형태의 데이터 파이프라인을 구현했습니다.
 
-* 원천 데이터 구조 분석
-* 데이터 정제 및 결측치 처리
-* 분석 목적에 맞는 표준 스키마 구성
-* Python / Pandas 기반 ETL 처리
-* SQLite 데이터베이스 적재
-* SQL을 활용한 데이터 조회 및 검증
-* EDA 및 Dashboard 프로젝트와 연결 가능한 데이터 구조 설계
+### What I Did
+
+* 원천 데이터 구조 및 결측치 분석
+* Python / Pandas 기반 전처리
+* 분석용 표준 스키마 설계
+* SQLite 데이터 적재
+* SQL 기반 데이터 검증 및 조회
+* 출퇴근 시간대 KPI 정의
+* Streamlit 데이터 대시보드 구현
 
 ### Tech
 
-`Python` `Pandas` `SQL` `SQLite` `ETL`
+`Python` `SQL` `Pandas` `SQLite` `Streamlit` `EDA` `ETL`
+
+---
+
+## 3. 편해질지도 | Barrier-Free Travel
+
+### 이동약자를 위한 무장애 여행 서비스
+
+TECH4GOOD Hackathon에서 진행한 이동약자 여행 지원 서비스입니다.
+
+### Role — Team Leader / PM
+
+* 사용자 문제 정의
+* 서비스 방향 및 핵심 기능 결정
+* 팀원 역할 및 우선순위 조율
+* MVP 범위 결정
+* 사용자 시나리오 및 서비스 플로우 설계
+* 기획 / 디자인 / 개발 간 의사결정 수행
+
+기술 자체보다 **사용자에게 어떤 문제가 있고 어떤 기능부터 해결해야 하는가**를 중심으로 프로젝트를 운영했습니다.
+
+---
+
+# Algorithm & Problem Solving
+
+Python을 이용해 LeetCode 문제를 풀며 자료구조와 알고리즘 기본기를 학습하고 있습니다.
+
+현재 주요 학습 영역:
+
+`Array` `Hash Table` `Stack` `Queue`
+`Linked List` `Tree` `Graph`
+`DFS` `BFS` `Union-Find`
+`Dynamic Programming` `Greedy`
+`Binary Search` `Sliding Window`
+`Backtracking`
+
+단순 정답 제출보다 문제의 패턴을 구분하고
+시간복잡도와 자료구조 선택 근거를 이해하는 것을 목표로 하고 있습니다.
 
 ---
 
 # Tech Stack
 
-### Data / AI
+### Data
 
-`Python` `SQL` `Pandas` `NumPy`
-`scikit-learn` `EDA` `Data Preprocessing` `Machine Learning`
+`Python` `SQL` `Pandas` `NumPy` `EDA` `ETL` `Data Preprocessing`
 
-### AI / Computer Vision
+### Machine Learning / AI
 
-`MediaPipe` `Computer Vision` `LLM API`
+`scikit-learn` `Machine Learning` `MediaPipe` `Computer Vision` `LLM API`
 
 ### Backend
 
 `FastAPI` `REST API` `OpenAPI` `SQLite` `MySQL`
 
-### Frontend / App
+### Frontend / Application
 
 `React` `React Native` `Expo` `TypeScript` `Streamlit`
 
@@ -229,37 +183,24 @@ EDA / Dashboard
 
 ---
 
-# Currently Learning
-
-현재 다음 영역을 중심으로 역량을 확장하고 있습니다.
-
-* Machine Learning / Data Science
-* Computer Vision
-* AI 서비스 설계
-* LLM Application
-* 데이터 기반 제품 개발
-* End-to-End AI Pipeline
-* AI Model과 Application 간 Integration
-
----
-
-# Interests
+# What I'm Building Toward
 
 ```text
-Data Analysis
-      +
-Machine Learning
-      +
-AI Application
-      +
-Product Development
+Problem Definition
+        ↓
+Data Collection / Analysis
+        ↓
+Machine Learning / AI
+        ↓
+API
+        ↓
+Application
+        ↓
+User Validation
 ```
 
-데이터에서 의미 있는 정보를 발견하는 것뿐만 아니라,
-이를 **사용자가 실제로 사용할 수 있는 제품과 서비스로 연결하는 과정**에 관심이 있습니다.
-
-장기적으로는 데이터 분석 및 머신러닝 역량과 서비스 구현 경험을 함께 갖춘
-**Data Scientist / AI Engineer**로 성장하는 것을 목표로 하고 있습니다.
+데이터 분석 역량을 기반으로 모델을 만드는 것뿐 아니라
+**데이터와 AI를 실제 제품과 서비스로 연결할 수 있는 Data Scientist / AI Engineer**로 성장하는 것을 목표로 하고 있습니다.
 
 ---
 
